@@ -1,0 +1,7 @@
+table:
+  name: test_table
+  schema: public
+configuration:
+  custom_column_names: {}
+  custom_name: tahTah
+  custom_root_fields: {}
