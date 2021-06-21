@@ -1,25 +1,4 @@
 SET check_function_bodies = false;
-CREATE FUNCTION public.runjobs() RETURNS void
-    LANGUAGE plpgsql
-    AS $$
-BEGIN
-    UPDATE job
-    SET status = 'running'
-    WHERE id in (
-        select 
-             distinct on (project_id) id 
-        from job 
-        where project_id in 
-            (
-                select distinct project_id from job where project_id not in 
-                    (select distinct project_id from job where status = 'running')
-            ) and status = 'scheduled'
-        order by 
-            project_id, 
-            timestamp desc
-    );
-END;
-$$;
 CREATE TABLE public.jobs (
     id integer NOT NULL,
     status text DEFAULT 'scheduled'::text NOT NULL,
