@@ -3,7 +3,7 @@ table:
   schema: public
 configuration:
   custom_column_names: {}
-  custom_name: mahTable1
+  custom_name: mahTablez1
   custom_root_fields: {}
 array_relationships:
 - name: table2s
