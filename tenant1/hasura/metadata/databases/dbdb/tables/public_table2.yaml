@@ -1,6 +1,10 @@
 table:
   name: table2
   schema: public
+configuration:
+  custom_column_names: {}
+  custom_name: mahTablez45
+  custom_root_fields: {}
 object_relationships:
 - name: table1
   using:
