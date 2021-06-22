@@ -1,2 +1,2 @@
-- "!include public_jobs.yaml"
-- "!include public_test_table.yaml"
+- "!include public_table1.yaml"
+- "!include public_table2.yaml"
