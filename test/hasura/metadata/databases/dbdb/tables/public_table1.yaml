@@ -1,0 +1,15 @@
+table:
+  name: table1
+  schema: public
+configuration:
+  custom_column_names: {}
+  custom_name: mahTable1
+  custom_root_fields: {}
+array_relationships:
+- name: table2s
+  using:
+    foreign_key_constraint_on:
+      column: table1id
+      table:
+        name: table2
+        schema: public
