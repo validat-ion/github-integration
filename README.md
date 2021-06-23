@@ -5,3 +5,5 @@ Repo for testing out git migrations
 commitafkajgkddasgdsakjgdfasgdadsgadsg
 dggdsfdf`kgsddsgaskdldgasddsgsadga
 adsgasfalkdsfadgsdgads
+
+deprecate blo
