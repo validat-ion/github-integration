@@ -6,4 +6,4 @@ commitafkajgkddasgdsakjgdfasgdadsgadsg
 dggdsfdf`kgsddsgaskdldgasddsgsadga
 adsgasfalkdsfadgsdgads
 
-deprecate blo
+deprecate blogsadg
